@@ -1,0 +1,147 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+.Minecraft {
+    background: rgb(127,255,0);
+    background: linear-gradient(90deg, rgba(127,255,0,1) 0%, rgba(2,194,13,1) 35%, rgba(0,255,216,1) 100%);
+}
+.Minecraft-start {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+.Minecraft-title {
+    font-family: Minecraft, sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+.Minecraft-text {
+    font-family: 'Minecraft', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.about-game {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.about-game-image {
+    height: 400px;
+    width: 300px;
+    margin-right: 20px;
+}
+.about-game-title {
+    font-family: 'Minecraft', sans-serif;
+}
+.about-game-text1 {
+    font-size: 20px;
+}
+.about-game-text2 {
+    font-size: 18px;
+}
+.create-history-start {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.create-history-title {
+    font-family: 'Minecraft', sans-serif;
+    font-size: 56px;
+}
+.create-history-text1 {
+    font-size: 20px;
+}
+.create-history-text2 {
+    font-size: 16px;
+}
+.Minecraft-classic-start {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Minecraft-classic-title {
+    text-align: center;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 56px;
+}
+.Minecraft-classic-cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+.Minecraft-classic-card1 {
+    margin-right: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    padding: 5px;
+}
+.Minecraft-classic-card2 {
+    padding-top: 65px;
+}
+.Minecraft-classic-text1 {
+    font-size: 20px;
+    text-align: center;
+}
+.Minecraft-Classic-text2 {
+    font-size: 15px;
+}
+.Minecraft-indev-start {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Minecraft-indev-title {
+    font-family: 'Minecraft', sans-serif;
+    font-size: 56px;
+}
+.Minecraft-indev-text1 {
+    font-size: 20px;
+}
+.Minecraft-indev-text2 {
+    font-size: 16px;
+}
+.Minecraft-alpha-start {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Minecraft-alpha-title {
+    text-align: center;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 56px;
+}
+.Minecraft-alpha-cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+.Minecraft-alpha-card1 {
+    margin-right: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    padding: 5px;
+}
+.Minecraft-alpha-card2 {
+    padding-top: 65px;
+}
+.Minecraft-alpha-text1 {
+    font-size: 20px;
+    text-align: center;
+}
+.Minecraft-alpha-text2 {
+    font-size: 15px;
+}
