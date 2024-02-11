@@ -39,6 +39,10 @@
 .about-game-text2 {
     font-size: 18px;
 }
+.create-history {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(138,158,10,1) 50%, rgba(230,152,60,1) 100%);
+}
 .create-history-start {
     text-align: center;
     padding-top: 100px;
@@ -55,6 +59,10 @@
 }
 .create-history-text2 {
     font-size: 16px;
+}
+.Minecraft-classic {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(25,219,173,1) 50%, rgba(60,230,221,1) 100%);
 }
 .Minecraft-classic-start {
     padding-top: 100px;
@@ -78,7 +86,8 @@
     margin-right: 20px;
     border: 3px solid black;
     border-radius: 10px;
-    background-color: brown;
+    background: rgb(88,58,8);
+    background: linear-gradient(0deg, rgba(88,58,8,1) 0%, rgba(57,113,45,1) 50%, rgba(34,190,0,1) 100%);
     color: white;
     padding: 5px;
 }
@@ -91,6 +100,10 @@
 }
 .Minecraft-Classic-text2 {
     font-size: 15px;
+}
+.Minecraft-indev {
+    background: rgb(89,89,89);
+    background: linear-gradient(90deg, rgba(89,89,89,1) 0%, rgba(159,159,159,1) 50%, rgba(255,255,255,1) 100%);
 }
 .Minecraft-indev-start {
     text-align: center;
@@ -108,6 +121,10 @@
 }
 .Minecraft-indev-text2 {
     font-size: 16px;
+}
+.Minecraft-alpha {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,113,113,1) 50%, rgba(255,0,0,1) 100%);
 }
 .Minecraft-alpha-start {
     padding-top: 100px;
@@ -131,7 +148,8 @@
     margin-right: 20px;
     border: 3px solid black;
     border-radius: 10px;
-    background-color: brown;
+    background: rgb(88,58,8);
+    background: linear-gradient(0deg, rgba(88,58,8,1) 0%, rgba(57,113,45,1) 50%, rgba(34,190,0,1) 100%);
     color: white;
     padding: 5px;
 }
@@ -144,6 +162,10 @@
 }
 .Minecraft-alpha-text2 {
     font-size: 15px;
+}
+.Minecraft-beta {
+    background: rgb(255,237,0);
+    background: linear-gradient(90deg, rgba(255,237,0,1) 0%, rgba(249,255,84,1) 50%, rgba(255,255,255,1) 100%);
 }
 .Minecraft-beta-start {
     padding-top: 100px;
@@ -167,7 +189,8 @@
     margin-right: 20px;
     border: 3px solid black;
     border-radius: 10px;
-    background-color: brown;
+    background: rgb(88,58,8);
+    background: linear-gradient(0deg, rgba(88,58,8,1) 0%, rgba(57,113,45,1) 50%, rgba(34,190,0,1) 100%);
     color: white;
     padding: 5px;
 }
@@ -179,5 +202,87 @@
     text-align: center;
 }
 .Minecraft-beta-text2 {
+    font-size: 15px;
+}
+.Minecraft-release {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(240,69,252,1) 50%, rgba(255,0,247,1) 100%);
+}
+.Minecraft-release-start {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Minecraft-release-title {
+    text-align: center;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 56px;
+}
+.Minecraft-release-cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+.Minecraft-release-card1 {
+    margin-right: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: rgb(88,58,8);
+    background: linear-gradient(0deg, rgba(88,58,8,1) 0%, rgba(57,113,45,1) 50%, rgba(34,190,0,1) 100%);
+    color: white;
+    padding: 5px;
+}
+.Minecraft-release-card2 {
+    padding-top: 65px;
+}
+.Minecraft-release-text1 {
+    font-size: 20px;
+    text-align: center;
+}
+.Minecraft-release-text2 {
+    font-size: 15px;
+}
+.Minecraft-bedrock {
+    background: rgb(0,15,255);
+    background: linear-gradient(90deg, rgba(0,15,255,1) 0%, rgba(102,86,255,1) 50%, rgba(255,255,255,1) 100%);
+}
+.Minecraft-bedrock-start {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Minecraft-bedrock-title {
+    text-align: center;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 56px;
+}
+.Minecraft-bedrock-cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+.Minecraft-bedrock-card1 {
+    margin-right: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: rgb(88,58,8);
+    background: linear-gradient(0deg, rgba(88,58,8,1) 0%, rgba(57,113,45,1) 50%, rgba(34,190,0,1) 100%);
+    color: white;
+    padding: 5px;
+}
+.Minecraft-bedrock-card2 {
+    padding-top: 65px;
+}
+.Minecraft-bedrock-text1 {
+    font-size: 20px;
+    text-align: center;
+}
+.Minecraft-bedrock-text2 {
     font-size: 15px;
 }
