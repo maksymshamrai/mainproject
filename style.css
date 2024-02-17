@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/minecraft-4');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 .Minecraft {
     background: rgb(127,255,0);
     background: linear-gradient(90deg, rgba(127,255,0,1) 0%, rgba(2,194,13,1) 35%, rgba(0,255,216,1) 100%);
@@ -34,9 +35,11 @@
     font-family: 'Minecraft', sans-serif;
 }
 .about-game-text1 {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
 }
 .about-game-text2 {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
 }
 .create-history {
@@ -55,14 +58,17 @@
     font-size: 56px;
 }
 .create-history-text1 {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
 }
 .create-history-text2 {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
 }
 .Minecraft-classic {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(25,219,173,1) 50%, rgba(60,230,221,1) 100%);
+    background-image: url('./Classic.webp') ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Minecraft-classic-start {
     padding-top: 100px;
@@ -73,6 +79,12 @@
     text-align: center;
     font-family: 'Minecraft', sans-serif;
     font-size: 56px;
+}
+.Minecraft-classic-text {
+    text-align: center;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+    color: white;
 }
 .Minecraft-classic-cards {
     display: flex;
@@ -88,11 +100,9 @@
     border-radius: 10px;
     background: rgb(88,58,8);
     background: linear-gradient(0deg, rgba(88,58,8,1) 0%, rgba(57,113,45,1) 50%, rgba(34,190,0,1) 100%);
+    font-family: 'Ubuntu', sans-serif;
     color: white;
-    padding: 5px;
-}
-.Minecraft-classic-card2 {
-    padding-top: 65px;
+    padding: 10px;
 }
 .Minecraft-classic-text1 {
     font-size: 20px;
@@ -102,8 +112,9 @@
     font-size: 15px;
 }
 .Minecraft-indev {
-    background: rgb(89,89,89);
-    background: linear-gradient(90deg, rgba(89,89,89,1) 0%, rgba(159,159,159,1) 50%, rgba(255,255,255,1) 100%);
+    background-image: url('indev.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Minecraft-indev-start {
     text-align: center;
@@ -115,16 +126,44 @@
 .Minecraft-indev-title {
     font-family: 'Minecraft', sans-serif;
     font-size: 56px;
+    color: red;
+}
+.Minecraft-indev-text{
+    text-align: center;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.Minecraft-indev-cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+.Minecraft-indev-card {
+    margin-right: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: rgb(88,58,8);
+    background: linear-gradient(0deg, rgba(88,58,8,1) 0%, rgba(57,113,45,1) 50%, rgba(34,190,0,1) 100%);
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    padding: 10px;
 }
 .Minecraft-indev-text1 {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
 }
 .Minecraft-indev-text2 {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
 }
 .Minecraft-alpha {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,113,113,1) 50%, rgba(255,0,0,1) 100%);
+    background-image: url('MojangPLAYS.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Minecraft-alpha-start {
     padding-top: 100px;
@@ -135,6 +174,12 @@
     text-align: center;
     font-family: 'Minecraft', sans-serif;
     font-size: 56px;
+}
+.Minecraft-alpha-text {
+    text-align: center;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+    color: white;
 }
 .Minecraft-alpha-cards {
     display: flex;
@@ -150,22 +195,21 @@
     border-radius: 10px;
     background: rgb(88,58,8);
     background: linear-gradient(0deg, rgba(88,58,8,1) 0%, rgba(57,113,45,1) 50%, rgba(34,190,0,1) 100%);
+    font-family: 'Ubuntu', sans-serif;
     color: white;
-    padding: 5px;
-}
-.Minecraft-alpha-card2 {
-    padding-top: 65px;
+    padding: 10px;
 }
 .Minecraft-alpha-text1 {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
 }
 .Minecraft-alpha-text2 {
-    font-size: 15px;
+    font-size: 12px;
 }
 .Minecraft-beta {
-    background: rgb(255,237,0);
-    background: linear-gradient(90deg, rgba(255,237,0,1) 0%, rgba(249,255,84,1) 50%, rgba(255,255,255,1) 100%);
+    background-image: url('Beta_1.0.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Minecraft-beta-start {
     padding-top: 100px;
@@ -176,6 +220,12 @@
     text-align: center;
     font-family: 'Minecraft', sans-serif;
     font-size: 56px;
+}
+.Minecraft-beta-text {
+    text-align: center;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+    color: white;
 }
 .Minecraft-beta-cards {
     display: flex;
@@ -191,11 +241,9 @@
     border-radius: 10px;
     background: rgb(88,58,8);
     background: linear-gradient(0deg, rgba(88,58,8,1) 0%, rgba(57,113,45,1) 50%, rgba(34,190,0,1) 100%);
+    font-family: 'Ubuntu', sans-serif;
     color: white;
-    padding: 5px;
-}
-.Minecraft-beta-card2 {
-    padding-top: 65px;
+    padding: 10px;
 }
 .Minecraft-beta-text1 {
     font-size: 20px;
@@ -205,8 +253,9 @@
     font-size: 15px;
 }
 .Minecraft-release {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(240,69,252,1) 50%, rgba(255,0,247,1) 100%);
+    background-image: url('release.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Minecraft-release-start {
     padding-top: 100px;
@@ -217,6 +266,13 @@
     text-align: center;
     font-family: 'Minecraft', sans-serif;
     font-size: 56px;
+    color: black;
+}
+.Minecraft-release-text {
+    text-align: center;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+    color: black;
 }
 .Minecraft-release-cards {
     display: flex;
@@ -232,11 +288,9 @@
     border-radius: 10px;
     background: rgb(88,58,8);
     background: linear-gradient(0deg, rgba(88,58,8,1) 0%, rgba(57,113,45,1) 50%, rgba(34,190,0,1) 100%);
+    font-family: 'Ubuntu', sans-serif;
     color: white;
-    padding: 5px;
-}
-.Minecraft-release-card2 {
-    padding-top: 65px;
+    padding: 10px;
 }
 .Minecraft-release-text1 {
     font-size: 20px;
@@ -246,8 +300,9 @@
     font-size: 15px;
 }
 .Minecraft-bedrock {
-    background: rgb(0,15,255);
-    background: linear-gradient(90deg, rgba(0,15,255,1) 0%, rgba(102,86,255,1) 50%, rgba(255,255,255,1) 100%);
+    background-image: url('bedrock1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Minecraft-bedrock-start {
     padding-top: 100px;
@@ -258,6 +313,13 @@
     text-align: center;
     font-family: 'Minecraft', sans-serif;
     font-size: 56px;
+    color: white;
+}
+.Minecraft-bedrock-text {
+    text-align: center;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+    color: white;
 }
 .Minecraft-bedrock-cards {
     display: flex;
@@ -273,11 +335,9 @@
     border-radius: 10px;
     background: rgb(88,58,8);
     background: linear-gradient(0deg, rgba(88,58,8,1) 0%, rgba(57,113,45,1) 50%, rgba(34,190,0,1) 100%);
+    font-family: 'Ubuntu', sans-serif;
     color: white;
     padding: 5px;
-}
-.Minecraft-bedrock-card2 {
-    padding-top: 65px;
 }
 .Minecraft-bedrock-text1 {
     font-size: 20px;
@@ -285,4 +345,18 @@
 }
 .Minecraft-bedrock-text2 {
     font-size: 15px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px 20px 50px 20px;
+}
+footer > h2 {
+    font-family: 'Minecraft', sans-serif;
+}
+footer > p {
+    font-family: 'Ubuntu', sans-serif;
+}
+footer > a {
+    color: skyblue;
 }
