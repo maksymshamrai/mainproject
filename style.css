@@ -66,7 +66,7 @@
     font-size: 16px;
 }
 .Minecraft-classic {
-    background-image: url('./Classic.webp') ;
+    background-image: url('./images/Classic.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -112,7 +112,7 @@
     font-size: 15px;
 }
 .Minecraft-indev {
-    background-image: url('indev.avif');
+    background-image: url('./images/indev.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -161,7 +161,7 @@
     font-size: 16px;
 }
 .Minecraft-alpha {
-    background-image: url('MojangPLAYS.webp');
+    background-image: url('/images/alpha.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -207,7 +207,7 @@
     font-size: 12px;
 }
 .Minecraft-beta {
-    background-image: url('Beta_1.0.webp');
+    background-image: url('/images/beta.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -253,7 +253,7 @@
     font-size: 15px;
 }
 .Minecraft-release {
-    background-image: url('release.webp');
+    background-image: url('/images/release.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -300,7 +300,7 @@
     font-size: 15px;
 }
 .Minecraft-bedrock {
-    background-image: url('bedrock1.jpeg');
+    background-image: url('/images/bedrock.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
