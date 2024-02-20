@@ -69,6 +69,8 @@
     background-image: url('./images/classic.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .minecraft-classic-start {
     padding-top: 100px;
@@ -108,13 +110,14 @@
     font-size: 20px;
     text-align: center;
 }
-.minecraft-Classic-text2 {
+.minecraft-classic-text2 {
     font-size: 15px;
 }
 .minecraft-indev {
     background-image: url('./images/indev.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 100px;
 }
 .minecraft-indev-start {
     text-align: center;
@@ -164,6 +167,7 @@
     background-image: url('/images/alpha.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 100px;
 }
 .minecraft-alpha-start {
     padding-top: 100px;
@@ -210,6 +214,7 @@
     background-image: url('/images/beta.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 100px;
 }
 .minecraft-beta-start {
     padding-top: 100px;
@@ -256,6 +261,7 @@
     background-image: url('/images/release.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 100px;
 }
 .minecraft-release-start {
     padding-top: 100px;
@@ -337,7 +343,7 @@
     background: linear-gradient(0deg, rgba(88,58,8,1) 0%, rgba(57,113,45,1) 50%, rgba(34,190,0,1) 100%);
     font-family: 'Ubuntu', sans-serif;
     color: white;
-    padding: 5px;
+    padding: 10px;
 }
 .minecraft-bedrock-text1 {
     font-size: 20px;
