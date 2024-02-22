@@ -3,10 +3,18 @@
 .minecraft {
     background: rgb(127,255,0);
     background: linear-gradient(90deg, rgba(127,255,0,1) 0%, rgba(2,194,13,1) 35%, rgba(0,255,216,1) 100%);
+    display: flex;
+    justify-content: center;
+}
+.minecraft-image {
+    width: 250px;
+    height: 300px;
+    margin-top: 230px;
 }
 .minecraft-start {
     padding-top: 250px;
     padding-bottom: 250px;
+    margin-left: 50px;
 }
 .minecraft-title {
     font-family: 'Minecraftia', sans-serif;
@@ -29,10 +37,14 @@
 .about-game-image {
     height: 400px;
     width: 300px;
-    margin-right: 20px;
+    margin-right: 40px;
+    border-radius: 20px;
 }
 .about-game-title {
     font-family: 'Ubuntu', sans-serif;
+}
+.about-game-texts {
+    padding-top: 30px;
 }
 .about-game-text1 {
     font-family: 'Ubuntu', sans-serif;
@@ -43,8 +55,8 @@
     font-size: 18px;
 }
 .create-history {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(138,158,10,1) 50%, rgba(230,152,60,1) 100%);
+    background: rgb(166,255,0);
+    background: linear-gradient(90deg, rgba(166,255,0,1) 0%, rgba(0,255,113,1) 100%); 
 }
 .create-history-start {
     text-align: center;
@@ -86,7 +98,8 @@
     text-align: center;
     font-family: 'ubuntu', sans-serif;
     font-weight: bold;
-    color: white;
+    color: black;
+    font-size: 30px;
 }
 .minecraft-classic-cards {
     display: flex;
@@ -135,7 +148,8 @@
     text-align: center;
     font-family: 'ubuntu', sans-serif;
     font-weight: bold;
-    color: white;
+    color: black;
+    font-size: 30px;
 }
 .minecraft-indev-cards {
     display: flex;
@@ -184,6 +198,7 @@
     font-family: 'ubuntu', sans-serif;
     font-weight: bold;
     color: white;
+    font-size: 30px;
 }
 .minecraft-alpha-cards {
     display: flex;
@@ -231,6 +246,7 @@
     font-family: 'ubuntu', sans-serif;
     font-weight: bold;
     color: white;
+    font-size: 30px;
 }
 .minecraft-beta-cards {
     display: flex;
@@ -279,6 +295,7 @@
     font-family: 'ubuntu', sans-serif;
     font-weight: bold;
     color: black;
+    font-size: 30px;
 }
 .minecraft-release-cards {
     display: flex;
@@ -295,6 +312,7 @@
     background: rgb(88,58,8);
     background: linear-gradient(0deg, rgba(88,58,8,1) 0%, rgba(57,113,45,1) 50%, rgba(34,190,0,1) 100%);
     font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
     color: white;
     padding: 10px;
 }
@@ -326,6 +344,7 @@
     font-family: 'ubuntu', sans-serif;
     font-weight: bold;
     color: white;
+    font-size: 30px;
 }
 .minecraft-bedrock-cards {
     display: flex;
@@ -342,6 +361,7 @@
     background: rgb(88,58,8);
     background: linear-gradient(0deg, rgba(88,58,8,1) 0%, rgba(57,113,45,1) 50%, rgba(34,190,0,1) 100%);
     font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
     color: white;
     padding: 10px;
 }
