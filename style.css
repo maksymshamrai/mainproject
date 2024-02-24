@@ -161,7 +161,7 @@
     font-size: 16px;
 }
 .minecraft-alpha {
-    background-image: url('/images/alpha.jpg');
+    background-image: url('./images/alpha.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -207,7 +207,7 @@
     font-size: 12px;
 }
 .minecraft-beta {
-    background-image: url('/images/beta.jpg');
+    background-image: url('./images/beta.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -253,7 +253,7 @@
     font-size: 15px;
 }
 .minecraft-release {
-    background-image: url('/images/release.jpg');
+    background-image: url('./images/release.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -300,7 +300,7 @@
     font-size: 15px;
 }
 .minecraft-bedrock {
-    background-image: url('/images/bedrock.jpg');
+    background-image: url('./images/bedrock.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
